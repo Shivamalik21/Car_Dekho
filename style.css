@@ -23,6 +23,7 @@ body{
 
 }
 
+
 /* nav1 */
 .nav1{
     
@@ -96,6 +97,11 @@ body{
    
   
 }
+@media screen (max-width:600px){
+     
+}
+    
+
 /* main */
 
 /* section1 */
@@ -175,8 +181,14 @@ form button{
     margin-top: 5vh;
     
 }
-
-
+/* section1 responsive */
+.sec1_res{
+    display: none;
+}
+/* section2 responsive */
+.sec2_res{
+    display: none;
+}
 
 /* section2 */
 .section2{
@@ -209,6 +221,11 @@ margin-top: 3vh;
     box-shadow: 0 1px 3px rgba(36,39,44,.15);
     
 }
+.tt1 span{
+    display: none;
+}
+
+
 .tag1 div{
    
    margin: 10px;
@@ -334,6 +351,7 @@ margin-top: 3vh;
 #section11{
   
     display: flex;
+    flex-direction: row;
    width: 90%;
    
     height: auto;
@@ -437,3 +455,169 @@ margin-top: 3vh;
   hr{
     margin-top: 3vh;
  }
+ @media   (max-width:600px) {
+    .section2{
+        margin-top: 10vw;
+        margin-left: 0px;
+     width: 100%;
+     box-shadow: 0 3px 3px rgba(36,39,44,.15);
+        scrollbar-color:blue;
+        
+
+    }
+    .section2 ul{
+        gap:5vw;
+        width:100%;
+    }
+    .feature_tag1{
+    width: auto;  
+    overflow-x: scroll;
+  gap:5vw;
+  
+    
+ }
+ .tag1{
+    background-color: white;
+    height: auto;
+  border-radius: 0.5rem;
+    
+ }
+ .section2 img{
+  border-top-left-radius: 0.5rem;
+  border-top-right-radius: 0.5rem;
+ }
+ #section7 ul{
+    gap:2vw;
+   
+    width: 95vw;
+    margin-right: 5vw;
+ }
+  .section12{
+    margin-top: 15vw;
+    box-shadow: 0 3px 3px rgba(36,39,44,.15);
+    background-color: white;
+ }
+ #section13 ul{
+    width: auto; 
+   
+ }
+ .grid2{
+    grid-template-columns: 100%;
+    grid-template-rows: repeat(4,20%);
+ }
+ .one{
+   
+    height: 15vh;
+    background-color: white;
+    overflow: hidden;
+ }
+ .one p{
+    color:white;
+ }
+ #section8 ul{
+    display: grid;
+    grid-template-columns: repeat(3,30%);
+    grid-template-rows: repeat(2,45%);
+ }
+ #section11{
+    flex-direction:column;
+    margin-left: 0px;
+    width: 100%;
+  
+
+ }
+ .grid{
+    width: 100%;
+    grid-template-columns: repeat(3,32%);
+    grid-template-rows: repeat(4,20%);
+    background-color: white;
+ }
+ .sec12{
+    width: 100%;
+    margin-top: 30px;
+ }
+ .sec12 select{
+    width: 90%;
+    margin-left: 0px;
+    padding-left: 3vw;
+    margin-bottom: 2vh;
+   
+ }
+ #section9 ul{
+    display: grid;
+    overflow: scroll;
+    grid-template-columns: repeat(6,50%);
+ }
+ .feature_tag1::-webkit-scrollbar{
+    display: none;
+ }
+ form ,.section1, button{
+    display: none;
+ }
+ .section1{
+    background-size: cover;
+    background-position:right;
+    
+
+ }
+ .sec1_res{
+    width: 99vw;
+    display:flex;
+    margin-top: 25vh;
+ }
+ .sec1_res ul::-webkit-scrollbar{
+    display: none;
+ }
+ .sec1_res ul{
+    display: flex;
+    gap:5vw;
+    overflow: scroll;
+    margin-left: 1vw;
+    list-style: none;
+ }
+ .sec1_res li,img{
+    border-radius: 0.9rem;
+ }
+ .tt1 span{
+    display: flex;
+    color: red;
+    margin-top: 5vw;
+    font-size: 18px;
+ }
+ .tt2 button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+ }
+ 
+ .tt2{
+    margin-right: 3vw;
+ }
+ .sec2_res{
+    display: flex;
+    flex-direction: column;
+    width: auto;
+    margin-top: 5svw;
+ }
+ .sec2_div1{
+    display: grid;
+    grid-template-rows: 50% 50%;
+    grid-template-columns: 50% 50%;
+   
+    margin-left: 18vw;
+    margin-right: 14vw;
+   
+    
+ }
+  .div2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5vw;
+    text-align: center;
+    height: 5vh;
+  background-color: aquamarine;
+    margin: 3vh 5vh;
+    border-radius: 0.5rem;
+ }
+}
