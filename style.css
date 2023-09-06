@@ -598,15 +598,23 @@ margin-top: 3vh;
     flex-direction: column;
     width: auto;
     margin-top: 5svw;
+   
  }
  .sec2_div1{
     display: grid;
     grid-template-rows: 50% 50%;
-    grid-template-columns: 50% 50%;
-   
+    grid-template-columns: 40% 40%;
+   width: 100vw;
+   margin-left: 1vw;
+   padding-left: 15vw;
    
    
     
+ }
+ .q{
+   
+    width: fit-content;
+    margin-right: 1vw;
  }
   .div2{
     display: flex;
@@ -618,5 +626,14 @@ margin-top: 3vh;
   background-color: aquamarine;
     margin: 3vh 5vh;
     border-radius: 0.5rem;
+ }
+ body{
+    width:100vw;
+   overflow-x: hidden;
+  
+    overflow-y: scroll;
+ }
+ #section9 h5{
+    display:none;
  }
 }
