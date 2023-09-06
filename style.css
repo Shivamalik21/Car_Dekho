@@ -97,9 +97,7 @@ body{
    
   
 }
-@media screen (max-width:600px){
-     
-}
+
     
 
 /* main */
@@ -458,7 +456,7 @@ margin-top: 3vh;
   hr{
     margin-top: 3vh;
  }
- @media   (max-width:600px) {
+ @media (max-width:900px) {
     .section2{
         margin-top: 10vw;
         margin-left: 0px;
@@ -639,4 +637,7 @@ margin-top: 3vh;
  #section9 h5{
     display:none;
  }
+}
+@media screen and (max-width:450px) {
+
 }
