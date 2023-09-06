@@ -301,6 +301,9 @@ margin-top: 3vh;
    
 
 }
+
+
+
 /* section8 */
 #section8 ul{
     width:100%;
@@ -490,7 +493,7 @@ margin-top: 3vh;
     gap:1vw;
    
     width: auto;
-    font-size: 10px;
+    font-size: 13px;
  }
   .section12{
     margin-top: 15vw;
@@ -614,7 +617,7 @@ margin-top: 3vh;
  .q{
    
     width: fit-content;
-    margin-right: 1vw;
+    margin-left: 5vw;
  }
   .div2{
     display: flex;
