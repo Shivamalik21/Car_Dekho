@@ -487,10 +487,10 @@ margin-top: 3vh;
   border-top-right-radius: 0.5rem;
  }
  #section7 ul{
-    gap:2vw;
+    gap:1vw;
    
-    width: 95vw;
-    margin-right: 5vw;
+    width: auto;
+    font-size: 10px;
  }
   .section12{
     margin-top: 15vw;
@@ -606,7 +606,7 @@ margin-top: 3vh;
     grid-template-columns: 40% 40%;
    width: 100vw;
    margin-left: 1vw;
-   padding-left: 15vw;
+   padding-left: 5vw;
    
    
     
