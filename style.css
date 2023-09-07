@@ -692,10 +692,16 @@ row-gap: 15%;
  #section9 h5{
     display:none;
  }
+ #section9 ul::-webkit-scrollbar{
+    display: none;
+ }
  .section12 .grid2{
      margin-bottom: 10vh;
  }
- .ses2_r ,.sec2_l{
+ .ses2_r{
+    display: none;
+ }
+ .sec2_r{
     display: none;
  }
 }
