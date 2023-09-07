@@ -16,18 +16,19 @@ body{
 
 
 
-/* nav1 */
+/* nav responsive*/
 
-
-    
-
+.responsive_nav{
+    display: none;
+}
 /* main */
 
 /* section1 */
 .section1{
     padding: 6vh;
     padding-left: 20vh;
-   
+  
+   position: relative;
     width:auto;
     height: 85vh;
     background-image:url(./image/b1.webp);
@@ -115,7 +116,7 @@ form button{
     height: 10vh;
    
     align-items: center;
- color:white;display: flex; justify-content:space-between;position: absolute;width:50vw;bottom: 11vw; margin-left: 30vw; 
+ color:white;display: flex; justify-content:space-between;position: absolute;width:50vw;bottom: 5vw; margin-left: 30vw; 
  
 }
 .section1_l span{
@@ -695,7 +696,7 @@ form button{
  .sec1_res{
     width: 99vw;
     display:flex;
-    margin-top: 25vh;
+    margin-top: 5vh;
  }
  .sec1_res ul::-webkit-scrollbar{
     display: none;
@@ -858,5 +859,55 @@ list-style: none;
 .footer{
     display: none;
 }
+.responsive_nav{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding-left: 1vw;
+}
+.nav_div1{
+    display: flex;
+    justify-content: space-between;
+    padding-right: 2vw;
+   padding-top: 2vw;
+    align-items: center;
+}
+.nav_div1p{
+    display: flex;
+   
+    
+    justify-content: space-between;
+    align-items: center;
+   
+}
+.nav_div1p img{
+   width:20vw;
+}
+.nav_div1 span{
+    font-size: 30px;
+    color: gray;
+}
+.navs_div2{
+    margin-top: 1vw;
+    width: 100%;
+   padding-left: 3vw;
+   position: relative;
+}
+.navs_div2 input{
+    width: 95%;
+    border-radius: 1.5rem;
+    height: 8vh;
+    background-color: rgba(221, 218, 218, 0.329);
+    border: none; 
+    padding-left: 8vw;
+   position: relative;
+}
+.navs_div2 span{
+    position: absolute;
+    left: 5vw;
+    top: 1.5vw;
+}
+    
+
   
  }
