@@ -8,6 +8,8 @@
 body{
     margin: 0px;
     padding: 0px;
+    background-color: rgba(240, 238, 238, 0.082);
+   
    
 }
 /* navbar */
@@ -15,78 +17,7 @@ body{
 
 
 /* nav1 */
-.nav1{
-    
-    display: flex;
-  justify-content: space-around;
-  align-items: center;
-  font-size: 14px;
-  margin-bottom: 1vh;
-  
-  padding-top: 2vh;
-  
-}
-.nav1 img{
-    width: 180px;
-}
-.nav1_search{
-    display: flex;
-    align-items: center;
-   
-   border-radius: 0.5rem;
-    height: 49px;
-    width:34%;
-      
-}
-.nav1 input{
-    height:47px;
-   border-top-left-radius: 0.5rem;
-   border-bottom-left-radius: 0.5rem;
-    width: 86%;
-  border: none;
-  background-color: rgb(247, 246, 246);
-  padding-left: 2vw;
- 
 
-}
-.nav12{
-    height: 1;
-    border-bottom: 0.5px solid rgb(218, 215, 215);
-}
-.search_icon{
-    display:flex;
-    width:14%;
-   height: 48px;
-    align-items: center;
-   justify-content: center;
- color: white;
- background-color: black;
- border-top-right-radius: 0.5rem;
- border-bottom-right-radius: 0.5rem;
-  
-}
-.nav1 ul{
-    display: flex;
-  
-  align-items: center;
- justify-content: space-between;
-
- width:250px;
- list-style: none;
-}
-.ul_list{
-    display: flex;
-    align-items: center;
-}
-/* nav2 */
-
-.nav2{
-    display: flex;
-    padding: 1vw 5vw;
-    justify-content: space-between;
-   
-  
-}
 
     
 
@@ -96,14 +27,14 @@ body{
 .section1{
     padding: 6vh;
     padding-left: 20vh;
-    margin:  19vh 5vw  0vw 2vw ;
-    width:95vw;
+   
+    width:auto;
     height: 85vh;
     background-image:url(./image/b1.webp);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: top;
-   
+   background-color: white;
    
 }
 .section1_1{
@@ -166,9 +97,47 @@ form button{
     background-color:rgb(255, 28, 28);
     border: none;
     
-    margin-top: 5vh;
+    margin-top: 3vh;
     
 }
+.form_div{
+    display: flex;
+    align-items: center;
+    justify-content: right;
+   padding-top:1vh ;
+    color: gray;
+}
+.form_div:hover{
+    color: green;
+    cursor: pointer;
+}
+.section1_l{
+    height: 10vh;
+   
+    align-items: center;
+ color:white;display: flex; justify-content:space-between;position: absolute;width:50vw;bottom: 11vw; margin-left: 30vw; 
+ 
+}
+.section1_l span{
+   border-color: gray;
+
+     /* Increase this as per requirement */
+     padding-bottom: 15px;
+     border-bottom-style: solid;
+     border-bottom-width:2px;
+     
+
+}
+.section1_l:hover span{
+    opacity: 0.5;
+}
+.section1_l span:hover{
+    cursor: pointer;
+    opacity: 1;
+    border-width: 5px;
+    border-color: white;
+}
+
 /* section1 responsive */
 .sec1_res{
     display: none;
@@ -187,7 +156,49 @@ form button{
     margin: 3vw 5vw 0vw 5vw;
     box-shadow: 0 1px 3px rgba(36,39,44,.15);
     padding: 3vh 2vw;
+    background-color: white;
+    position: relative;
+}
+.sec2_l{
+    display: flex; justify-content: center; border-radius: 50%; width: 3vw; position: absolute; display:flex; top: 48vh; right: 4.5vh;
+    background-color: white; 
+    box-shadow: 0 8px 4px rgba(36,39,44,.15);
+}
+.sec2_l span{
+    font-size: 40px;
+    
+}
+.se2 .sec2_l{
+   top:35vh;
+}
+.ses2_r{
+    display: flex; justify-content: center; border-radius: 50%; width: 3vw; position: absolute; display:flex; top: 48vh; 
+    background-color: white; 
+    box-shadow: 0 8px 4px rgba(36,39,44,.15);
 
+}
+.ses2_r span{
+    font-size: 40px; 
+}
+.se2 .ses2_r{
+    top:36vh;
+    
+}
+.se3 .ses2_r{
+    top:40vh;
+}
+.se3 .sec2_l{
+    top:40vh;
+}
+.sec2_l:hover{
+    cursor: pointer;
+    background-color: rgb(199, 194, 194);
+    color: white;
+}
+.ses2_r:hover{
+    cursor: pointer;
+    background-color: rgb(199, 194, 194);
+    color: white;
 }
 .section2 ul{
     display: flex;
@@ -197,16 +208,17 @@ form button{
     justify-content:space-between;
 }
 
+
 .feature_tag1{
    
     display: flex;
-  justify-content: space-between;
+    justify-content: space-between;
    margin-top: 3vh;
 
 }
 .tag1{
    
-    height: 50vh;
+    height: 52vh;
     box-shadow: 0 1px 3px rgba(36,39,44,.15);
     
 }
@@ -354,7 +366,7 @@ form button{
     margin: 3vw 5vw 0vw 5vw;
     box-shadow: 0 1px 3px rgba(36,39,44,.15);
     padding: 3vh 2vw 2vw;
-   
+    background-color: white;
     
 }
 .grid{
@@ -367,7 +379,7 @@ form button{
     gap:1vw;
     row-gap:5vh ;
    text-align: center;
-   
+   background-color: white;
    
    
 }
@@ -402,11 +414,11 @@ form button{
  /* section12 */
  .section12{
     width: 90%;
-    height: auto;
+    height: fit-content;
     margin: 3vw 5vw 0vw 5vw;
     box-shadow: 0 1px 3px rgba(36,39,44,.15);
     padding: 3vh 2vw 5vw;
-
+    background-color: white;
 
  }
  .grid2{
@@ -414,8 +426,12 @@ form button{
     grid-template-columns: 50% 50%;
     grid-template-rows:50% 50% ;
     margin-top: 5vh;
+    margin-bottom: 15vh;
     row-gap: 5vh;
 
+ }
+ .section12 hr{
+    margin-bottom: 3vh;
  }
  .one{
     display: flex;
@@ -451,6 +467,47 @@ form button{
   hr{
     margin-top: 3vh;
  }
+ .f1{
+    color:blue;
+ }
+ .f1:hover{
+    cursor: pointer;
+  color: red;
+ }
+ .l1{
+    color:red;
+ }
+ button:hover{
+    cursor: pointer;
+    background-color: green;
+    color:white;
+    border: 1px solid green;
+ }
+ .sec6 span{
+    background-color: red;
+ }
+ .sec6:hover h1{
+    cursor: pointer;
+    color:green;
+ }
+ .sec6:hover span{
+    cursor: pointer;
+     background-color: green;
+ }
+ 
+ 
+ #section9 li:hover{
+    cursor: pointer;
+    transform: rotatey(60deg);perspective:1000px;
+    opacity: 1;
+    transition-duration: 0.5s;
+
+}
+.one{
+    box-shadow: 0 3px 3px rgba(36,39,44,.15);
+    margin-right: 1vw;
+}
+
  @media (max-width:900px) {
     .section2{
         margin-top: 10vw;
@@ -594,6 +651,7 @@ form button{
     flex-direction: column;
     width: auto;
     margin-top: 5svw;
+    justify-content: space-between;
    
  }
  .sec2_div1{
@@ -622,15 +680,22 @@ row-gap: 15%;
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 10vw;
+  
     text-align: center;
     height: 10vh;
-  background-color: aquamarine;
+  background-color: rgb(31, 243, 137);
     margin: 3vh 5vh;
     border-radius: 0.5rem;
+    border: none;
  }
   
  #section9 h5{
     display:none;
+ }
+ .section12 .grid2{
+     margin-bottom: 10vh;
+ }
+ .ses2_r ,.sec2_l{
+    display: none;
  }
 }
